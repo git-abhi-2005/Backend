@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4facfe;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #4facfe;
+}
+
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 52px;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 22px;
+  margin-bottom: 25px;
+  color: #ddd;
+}
+
+.hero-text button {
+  padding: 12px 35px;
+  border: none;
+  background: #4facfe;
+  color: black;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.hero-text button:hover {
+  background: white;
+  transform: scale(1.1);
+}
+
+.hero-img {
+  position: relative;
+  width: 420px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(135deg,#4facfe,#00f2fe,#a18cd1);
+  filter: blur(35px);
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.hero-img img {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #a18cd1;
+  box-shadow:
+    0 0 10px rgba(79,172,254,0.5),
+    0 0 25px rgba(161,140,209,0.4),
+    0 0 40px rgba(0,242,254,0.3);
+}
+
+section {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  color: #4facfe;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.skill-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 30px;
+  background: #4facfe;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background: white;
+  transform: scale(1.1);
+}
+
+.center-btn {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+
+.skill {
+  background: rgba(255,255,255,0.1);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(79,172,254,0.3);
+  transition: 0.4s;
+}
+
+.skill:hover {
+  transform: translateY(-10px);
+}
+
+.skill span {
+  color: #00f2fe;
+  font-weight: bold;
+}
+
+.project-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.project {
+  background: rgba(255,255,255,0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(161,140,209,0.4);
+  transition: 0.4s;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+.contact form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+.contact textarea {
+  height: 120px;
+}
+
+.contact button {
+  padding: 12px;
+  background: #4facfe;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.contact button:hover {
+  background: white;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: rgba(0,0,0,0.4);
+  margin-top: 40px;
+}
