@@ -1,0 +1,702 @@
+[
+    {
+        "name": "Product 1",
+        "category": "Electronics",
+        "price": 145.32,
+        "stock": 78,
+        "created_at": "2026-03-20T10:01:00Z"
+    },
+    {
+        "name": "Product 2",
+        "category": "Clothing",
+        "price": 59.99,
+        "stock": 120,
+        "created_at": "2026-03-20T10:02:00Z"
+    },
+    {
+        "name": "Product 3",
+        "category": "Books",
+        "price": 18.75,
+        "stock": 200,
+        "created_at": "2026-03-20T10:03:00Z"
+    },
+    {
+        "name": "Product 4",
+        "category": "Home",
+        "price": 220.10,
+        "stock": 65,
+        "created_at": "2026-03-20T10:04:00Z"
+    },
+    {
+        "name": "Product 5",
+        "category": "Toys",
+        "price": 35.50,
+        "stock": 90,
+        "created_at": "2026-03-20T10:05:00Z"
+    },
+    {
+        "name": "Product 6",
+        "category": "Electronics",
+        "price": 399.99,
+        "stock": 40,
+        "created_at": "2026-03-20T10:06:00Z"
+    },
+    {
+        "name": "Product 7",
+        "category": "Clothing",
+        "price": 25.00,
+        "stock": 150,
+        "created_at": "2026-03-20T10:07:00Z"
+    },
+    {
+        "name": "Product 8",
+        "category": "Books",
+        "price": 12.49,
+        "stock": 300,
+        "created_at": "2026-03-20T10:08:00Z"
+    },
+    {
+        "name": "Product 9",
+        "category": "Home",
+        "price": 89.99,
+        "stock": 70,
+        "created_at": "2026-03-20T10:09:00Z"
+    },
+    {
+        "name": "Product 10",
+        "category": "Toys",
+        "price": 19.99,
+        "stock": 110,
+        "created_at": "2026-03-20T10:10:00Z"
+    },
+    {
+        "name": "Product 11",
+        "category": "Electronics",
+        "price": 210.45,
+        "stock": 55,
+        "created_at": "2026-03-20T10:11:00Z"
+    },
+    {
+        "name": "Product 12",
+        "category": "Clothing",
+        "price": 45.99,
+        "stock": 130,
+        "created_at": "2026-03-20T10:12:00Z"
+    },
+    {
+        "name": "Product 13",
+        "category": "Books",
+        "price": 22.10,
+        "stock": 210,
+        "created_at": "2026-03-20T10:13:00Z"
+    },
+    {
+        "name": "Product 14",
+        "category": "Home",
+        "price": 150.75,
+        "stock": 85,
+        "created_at": "2026-03-20T10:14:00Z"
+    },
+    {
+        "name": "Product 15",
+        "category": "Toys",
+        "price": 27.30,
+        "stock": 95,
+        "created_at": "2026-03-20T10:15:00Z"
+    },
+    {
+        "name": "Product 16",
+        "category": "Electronics",
+        "price": 499.00,
+        "stock": 25,
+        "created_at": "2026-03-20T10:16:00Z"
+    },
+    {
+        "name": "Product 17",
+        "category": "Clothing",
+        "price": 35.20,
+        "stock": 140,
+        "created_at": "2026-03-20T10:17:00Z"
+    },
+    {
+        "name": "Product 18",
+        "category": "Books",
+        "price": 9.99,
+        "stock": 320,
+        "created_at": "2026-03-20T10:18:00Z"
+    },
+    {
+        "name": "Product 19",
+        "category": "Home",
+        "price": 99.00,
+        "stock": 60,
+        "created_at": "2026-03-20T10:19:00Z"
+    },
+    {
+        "name": "Product 20",
+        "category": "Toys",
+        "price": 15.49,
+        "stock": 105,
+        "created_at": "2026-03-20T10:20:00Z"
+    },
+    {
+        "name": "Product 21",
+        "category": "Electronics",
+        "price": 275.60,
+        "stock": 48,
+        "created_at": "2026-03-20T10:21:00Z"
+    },
+    {
+        "name": "Product 22",
+        "category": "Clothing",
+        "price": 60.00,
+        "stock": 115,
+        "created_at": "2026-03-20T10:22:00Z"
+    },
+    {
+        "name": "Product 23",
+        "category": "Books",
+        "price": 14.20,
+        "stock": 260,
+        "created_at": "2026-03-20T10:23:00Z"
+    },
+    {
+        "name": "Product 24",
+        "category": "Home",
+        "price": 130.00,
+        "stock": 75,
+        "created_at": "2026-03-20T10:24:00Z"
+    },
+    {
+        "name": "Product 25",
+        "category": "Toys",
+        "price": 22.99,
+        "stock": 88,
+        "created_at": "2026-03-20T10:25:00Z"
+    },
+    {
+        "name": "Product 26",
+        "category": "Electronics",
+        "price": 310.80,
+        "stock": 35,
+        "created_at": "2026-03-20T10:26:00Z"
+    },
+    {
+        "name": "Product 27",
+        "category": "Clothing",
+        "price": 28.90,
+        "stock": 155,
+        "created_at": "2026-03-20T10:27:00Z"
+    },
+    {
+        "name": "Product 28",
+        "category": "Books",
+        "price": 17.00,
+        "stock": 280,
+        "created_at": "2026-03-20T10:28:00Z"
+    },
+    {
+        "name": "Product 29",
+        "category": "Home",
+        "price": 175.45,
+        "stock": 68,
+        "created_at": "2026-03-20T10:29:00Z"
+    },
+    {
+        "name": "Product 30",
+        "category": "Toys",
+        "price": 18.75,
+        "stock": 120,
+        "created_at": "2026-03-20T10:30:00Z"
+    },
+    {
+        "name": "Product 31",
+        "category": "Electronics",
+        "price": 420.99,
+        "stock": 22,
+        "created_at": "2026-03-20T10:31:00Z"
+    },
+    {
+        "name": "Product 32",
+        "category": "Clothing",
+        "price": 39.99,
+        "stock": 145,
+        "created_at": "2026-03-20T10:32:00Z"
+    },
+    {
+        "name": "Product 33",
+        "category": "Books",
+        "price": 11.50,
+        "stock": 330,
+        "created_at": "2026-03-20T10:33:00Z"
+    },
+    {
+        "name": "Product 34",
+        "category": "Home",
+        "price": 140.25,
+        "stock": 82,
+        "created_at": "2026-03-20T10:34:00Z"
+    },
+    {
+        "name": "Product 35",
+        "category": "Toys",
+        "price": 24.60,
+        "stock": 99,
+        "created_at": "2026-03-20T10:35:00Z"
+    },
+    {
+        "name": "Product 36",
+        "category": "Electronics",
+        "price": 289.10,
+        "stock": 44,
+        "created_at": "2026-03-20T10:36:00Z"
+    },
+    {
+        "name": "Product 37",
+        "category": "Clothing",
+        "price": 49.50,
+        "stock": 132,
+        "created_at": "2026-03-20T10:37:00Z"
+    },
+    {
+        "name": "Product 38",
+        "category": "Books",
+        "price": 13.25,
+        "stock": 295,
+        "created_at": "2026-03-20T10:38:00Z"
+    },
+    {
+        "name": "Product 39",
+        "category": "Home",
+        "price": 160.00,
+        "stock": 73,
+        "created_at": "2026-03-20T10:39:00Z"
+    },
+    {
+        "name": "Product 40",
+        "category": "Toys",
+        "price": 21.40,
+        "stock": 108,
+        "created_at": "2026-03-20T10:40:00Z"
+    },
+    {
+        "name": "Product 41",
+        "category": "Electronics",
+        "price": 350.00,
+        "stock": 30,
+        "created_at": "2026-03-20T10:41:00Z"
+    },
+    {
+        "name": "Product 42",
+        "category": "Clothing",
+        "price": 33.75,
+        "stock": 148,
+        "created_at": "2026-03-20T10:42:00Z"
+    },
+    {
+        "name": "Product 43",
+        "category": "Books",
+        "price": 16.80,
+        "stock": 240,
+        "created_at": "2026-03-20T10:43:00Z"
+    },
+    {
+        "name": "Product 44",
+        "category": "Home",
+        "price": 180.20,
+        "stock": 66,
+        "created_at": "2026-03-20T10:44:00Z"
+    },
+    {
+        "name": "Product 45",
+        "category": "Toys",
+        "price": 26.10,
+        "stock": 92,
+        "created_at": "2026-03-20T10:45:00Z"
+    },
+    {
+        "name": "Product 46",
+        "category": "Electronics",
+        "price": 410.50,
+        "stock": 28,
+        "created_at": "2026-03-20T10:46:00Z"
+    },
+    {
+        "name": "Product 47",
+        "category": "Clothing",
+        "price": 42.00,
+        "stock": 138,
+        "created_at": "2026-03-20T10:47:00Z"
+    },
+    {
+        "name": "Product 48",
+        "category": "Books",
+        "price": 19.99,
+        "stock": 270,
+        "created_at": "2026-03-20T10:48:00Z"
+    },
+    {
+        "name": "Product 49",
+        "category": "Home",
+        "price": 155.75,
+        "stock": 79,
+        "created_at": "2026-03-20T10:49:00Z"
+    },
+    {
+        "name": "Product 50",
+        "category": "Toys",
+        "price": 17.85,
+        "stock": 111,
+        "created_at": "2026-03-20T10:50:00Z"
+    },
+    {
+        "name": "Product 51",
+        "category": "Electronics",
+        "price": 260.30,
+        "stock": 46,
+        "created_at": "2026-03-20T10:51:00Z"
+    },
+    {
+        "name": "Product 52",
+        "category": "Clothing",
+        "price": 55.00,
+        "stock": 125,
+        "created_at": "2026-03-20T10:52:00Z"
+    },
+    {
+        "name": "Product 53",
+        "category": "Books",
+        "price": 10.99,
+        "stock": 310,
+        "created_at": "2026-03-20T10:53:00Z"
+    },
+    {
+        "name": "Product 54",
+        "category": "Home",
+        "price": 145.60,
+        "stock": 88,
+        "created_at": "2026-03-20T10:54:00Z"
+    },
+    {
+        "name": "Product 55",
+        "category": "Toys",
+        "price": 23.70,
+        "stock": 97,
+        "created_at": "2026-03-20T10:55:00Z"
+    },
+    {
+        "name": "Product 56",
+        "category": "Electronics",
+        "price": 370.90,
+        "stock": 33,
+        "created_at": "2026-03-20T10:56:00Z"
+    },
+    {
+        "name": "Product 57",
+        "category": "Clothing",
+        "price": 29.99,
+        "stock": 160,
+        "created_at": "2026-03-20T10:57:00Z"
+    },
+    {
+        "name": "Product 58",
+        "category": "Books",
+        "price": 14.75,
+        "stock": 285,
+        "created_at": "2026-03-20T10:58:00Z"
+    },
+    {
+        "name": "Product 59",
+        "category": "Home",
+        "price": 165.20,
+        "stock": 74,
+        "created_at": "2026-03-20T10:59:00Z"
+    },
+    {
+        "name": "Product 60",
+        "category": "Toys",
+        "price": 20.55,
+        "stock": 104,
+        "created_at": "2026-03-20T11:00:00Z"
+    },
+    {
+        "name": "Product 61",
+        "category": "Electronics",
+        "price": 480.00,
+        "stock": 20,
+        "created_at": "2026-03-20T11:01:00Z"
+    },
+    {
+        "name": "Product 62",
+        "category": "Clothing",
+        "price": 37.80,
+        "stock": 142,
+        "created_at": "2026-03-20T11:02:00Z"
+    },
+    {
+        "name": "Product 63",
+        "category": "Books",
+        "price": 12.20,
+        "stock": 325,
+        "created_at": "2026-03-20T11:03:00Z"
+    },
+    {
+        "name": "Product 64",
+        "category": "Home",
+        "price": 190.00,
+        "stock": 58,
+        "created_at": "2026-03-20T11:04:00Z"
+    },
+    {
+        "name": "Product 65",
+        "category": "Toys",
+        "price": 28.90,
+        "stock": 89,
+        "created_at": "2026-03-20T11:05:00Z"
+    },
+    {
+        "name": "Product 66",
+        "category": "Electronics",
+        "price": 300.00,
+        "stock": 38,
+        "created_at": "2026-03-20T11:06:00Z"
+    },
+    {
+        "name": "Product 67",
+        "category": "Clothing",
+        "price": 48.25,
+        "stock": 135,
+        "created_at": "2026-03-20T11:07:00Z"
+    },
+    {
+        "name": "Product 68",
+        "category": "Books",
+        "price": 9.50,
+        "stock": 350,
+        "created_at": "2026-03-20T11:08:00Z"
+    },
+    {
+        "name": "Product 69",
+        "category": "Home",
+        "price": 135.00,
+        "stock": 92,
+        "created_at": "2026-03-20T11:09:00Z"
+    },
+    {
+        "name": "Product 70",
+        "category": "Toys",
+        "price": 16.60,
+        "stock": 118,
+        "created_at": "2026-03-20T11:10:00Z"
+    },
+    {
+        "name": "Product 71",
+        "category": "Electronics",
+        "price": 255.00,
+        "stock": 49,
+        "created_at": "2026-03-20T11:11:00Z"
+    },
+    {
+        "name": "Product 72",
+        "category": "Clothing",
+        "price": 34.10,
+        "stock": 150,
+        "created_at": "2026-03-20T11:12:00Z"
+    },
+    {
+        "name": "Product 73",
+        "category": "Books",
+        "price": 13.90,
+        "stock": 290,
+        "created_at": "2026-03-20T11:13:00Z"
+    },
+    {
+        "name": "Product 74",
+        "category": "Home",
+        "price": 170.00,
+        "stock": 77,
+        "created_at": "2026-03-20T11:14:00Z"
+    },
+    {
+        "name": "Product 75",
+        "category": "Toys",
+        "price": 19.30,
+        "stock": 109,
+        "created_at": "2026-03-20T11:15:00Z"
+    },
+    {
+        "name": "Product 76",
+        "category": "Electronics",
+        "price": 390.00,
+        "stock": 27,
+        "created_at": "2026-03-20T11:16:00Z"
+    },
+    {
+        "name": "Product 77",
+        "category": "Clothing",
+        "price": 41.60,
+        "stock": 139,
+        "created_at": "2026-03-20T11:17:00Z"
+    },
+    {
+        "name": "Product 78",
+        "category": "Books",
+        "price": 15.00,
+        "stock": 305,
+        "created_at": "2026-03-20T11:18:00Z"
+    },
+    {
+        "name": "Product 79",
+        "category": "Home",
+        "price": 158.00,
+        "stock": 83,
+        "created_at": "2026-03-20T11:19:00Z"
+    },
+    {
+        "name": "Product 80",
+        "category": "Toys",
+        "price": 22.20,
+        "stock": 101,
+        "created_at": "2026-03-20T11:20:00Z"
+    },
+    {
+        "name": "Product 81",
+        "category": "Electronics",
+        "price": 275.00,
+        "stock": 42,
+        "created_at": "2026-03-20T11:21:00Z"
+    },
+    {
+        "name": "Product 82",
+        "category": "Clothing",
+        "price": 52.00,
+        "stock": 128,
+        "created_at": "2026-03-20T11:22:00Z"
+    },
+    {
+        "name": "Product 83",
+        "category": "Books",
+        "price": 11.75,
+        "stock": 340,
+        "created_at": "2026-03-20T11:23:00Z"
+    },
+    {
+        "name": "Product 84",
+        "category": "Home",
+        "price": 142.00,
+        "stock": 86,
+        "created_at": "2026-03-20T11:24:00Z"
+    },
+    {
+        "name": "Product 85",
+        "category": "Toys",
+        "price": 24.00,
+        "stock": 96,
+        "created_at": "2026-03-20T11:25:00Z"
+    },
+    {
+        "name": "Product 86",
+        "category": "Electronics",
+        "price": 330.00,
+        "stock": 36,
+        "created_at": "2026-03-20T11:26:00Z"
+    },
+    {
+        "name": "Product 87",
+        "category": "Clothing",
+        "price": 36.90,
+        "stock": 147,
+        "created_at": "2026-03-20T11:27:00Z"
+    },
+    {
+        "name": "Product 88",
+        "category": "Books",
+        "price": 18.00,
+        "stock": 260,
+        "created_at": "2026-03-20T11:28:00Z"
+    },
+    {
+        "name": "Product 89",
+        "category": "Home",
+        "price": 175.00,
+        "stock": 69,
+        "created_at": "2026-03-20T11:29:00Z"
+    },
+    {
+        "name": "Product 90",
+        "category": "Toys",
+        "price": 21.00,
+        "stock": 112,
+        "created_at": "2026-03-20T11:30:00Z"
+    },
+    {
+        "name": "Product 91",
+        "category": "Electronics",
+        "price": 410.00,
+        "stock": 24,
+        "created_at": "2026-03-20T11:31:00Z"
+    },
+    {
+        "name": "Product 92",
+        "category": "Clothing",
+        "price": 44.00,
+        "stock": 133,
+        "created_at": "2026-03-20T11:32:00Z"
+    },
+    {
+        "name": "Product 93",
+        "category": "Books",
+        "price": 10.50,
+        "stock": 360,
+        "created_at": "2026-03-20T11:33:00Z"
+    },
+    {
+        "name": "Product 94",
+        "category": "Home",
+        "price": 165.00,
+        "stock": 72,
+        "created_at": "2026-03-20T11:34:00Z"
+    },
+    {
+        "name": "Product 95",
+        "category": "Toys",
+        "price": 23.00,
+        "stock": 98,
+        "created_at": "2026-03-20T11:35:00Z"
+    },
+    {
+        "name": "Product 96",
+        "category": "Electronics",
+        "price": 295.00,
+        "stock": 41,
+        "created_at": "2026-03-20T11:36:00Z"
+    },
+    {
+        "name": "Product 97",
+        "category": "Clothing",
+        "price": 38.00,
+        "stock": 152,
+        "created_at": "2026-03-20T11:37:00Z"
+    },
+    {
+        "name": "Product 98",
+        "category": "Books",
+        "price": 14.00,
+        "stock": 275,
+        "created_at": "2026-03-20T11:38:00Z"
+    },
+    {
+        "name": "Product 99",
+        "category": "Home",
+        "price": 150.00,
+        "stock": 81,
+        "created_at": "2026-03-20T11:39:00Z"
+    },
+    {
+        "name": "Product 100",
+        "category": "Toys",
+        "price": 20.00,
+        "stock": 115,
+        "created_at": "2026-03-20T11:40:00Z"
+    }
+]
