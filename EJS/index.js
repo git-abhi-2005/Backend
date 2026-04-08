@@ -3,6 +3,8 @@ const app = express();
 const users = require('./users_400.json');
 const fs = require('fs');
 
+app.use(express.urlencoded({ extended: true }));
+
 app.get('/', (req, res) => {
     res.send('Hello World');
 });
@@ -20,35 +22,34 @@ app.get('/user', (req, res) => {
     res.send(html);
 });
 
-app.get('/api/user/:id', (req, res) => {
-    const id = Number(req.params.id);
-    const user = users.find((user) => user.id === id);
-    return res.json(user);
-});
+app.post('/api/users', (req, res) => {
+    console.log(req.body);
 
-app.post('/users', (req, res) => {
-    const newData = {
-        "id": 401,
-        "name": "User1",
-        "email": "user1@example.com",
-        "address": "Street 1, City 43, Country",
-        "contact": "+918470273434"
-    };
+    const newData = req.body;
 
     const data = JSON.parse(fs.readFileSync('./users_400.json', 'utf-8'));
     data.push(newData);
     fs.writeFileSync('./users_400.json', JSON.stringify(data));
 
-    res.send("Data appended");
+    res.send("Data received and stored");
 });
 
 app.patch('/api/user/:id', (req, res) => {
-    //will do with mongo
 });
 
 app.delete('/api/user/:id', (req, res) => {
-    //will do with mongo
 });
+
+app.route('/api/user/:id')
+    .get((req, res) => {
+        const id = Number(req.params.id);
+        const user = users.find((user) => user.id === id);
+        return res.json(user);
+    })
+    .patch((req, res) => {
+    })
+    .delete((req, res) => {
+    });
 
 app.listen(9956, () => {
     console.log('Server running on http://localhost:9956');
