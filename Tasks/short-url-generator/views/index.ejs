@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 min-h-screen flex items-center justify-center">
+
+    <div class="bg-white p-8 rounded-2xl shadow-2xl w-[400px] text-center">
+
+        <h1 class="text-2xl font-bold text-gray-800 mb-4">🔗 URL Shortener</h1>
+
+        <form action="/url/shorten" method="POST" class="space-y-4">
+            <input type="text" name="actualUrl" placeholder="Paste your long URL..." required
+                class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500" />
+
+            <button type="submit"
+                class="w-full bg-purple-600 text-white py-2 rounded-lg hover:bg-purple-700 transition">
+                Shorten URL
+            </button>
+        </form>
+
+        <% if (shortUrl) { %>
+            <div class="mt-6 p-4 bg-gray-100 rounded-lg">
+                <p class="text-gray-600 mb-2">Your Short URL:</p>
+
+                <a href="/url/<%= shortUrl %>" target="_blank" class="text-blue-600 font-semibold break-all">
+                    http://localhost:9956/url/<%= shortUrl %>
+                </a>
+
+                <button onclick="copyLink()" class="mt-3 bg-green-500 text-white px-4 py-1 rounded hover:bg-green-600">
+                    Copy to Clipboard
+                </button>
+            </div>
+            <% } %>
+
+    </div>
+
+    <script>
+        function copyLink() {
+            const link = "http://localhost:9956/url/<%= shortUrl %>";
+            navigator.clipboard.writeText(link);
+            alert("Copied to clipboard ✅");
+        }
+    </script>
+
+</body>
+
+</html>
