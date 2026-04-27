@@ -4,7 +4,7 @@ const session = require('express-session');
 const path = require('path');
 
 const app = express();
-const PORT =  2005;
+const PORT = 2005;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
@@ -18,8 +18,19 @@ app.use(session({
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
+const checkAuth = (req, res, next) => {
+    if (!req.session.user) {
+        return res.redirect('/login');
+    }
+    next();
+};
+
 app.get('/', (req, res) => {
-    res.redirect('/login');
+    if (req.session.user) {
+        res.redirect('/home');
+    } else {
+        res.redirect('/login');
+    }
 });
 
 app.get('/login', (req, res) => {
@@ -38,23 +49,15 @@ app.post('/login', (req, res) => {
     }
 });
 
-app.get('/home', (req, res) => {
-    if (req.session.user) {
-        res.render('home', { user: req.session.user });
-    } else {
-        res.redirect('/login');
-    }
+app.get('/home', checkAuth, (req, res) => {
+    res.render('home', { user: req.session.user });
 });
 
-app.get('/profile', (req, res) => {
-    if (req.session.user) {
-        res.render('profile', { user: req.session.user });
-    } else {
-        res.redirect('/login');
-    }
+app.get('/profile', checkAuth, (req, res) => {
+    res.render('profile', { user: req.session.user });
 });
 
-app.get('/logout', (req, res) => {
+app.get('/logout', checkAuth, (req, res) => {
     req.session.destroy((err) => {
         if (err) {
             console.log(err);
